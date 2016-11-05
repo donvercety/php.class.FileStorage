@@ -46,9 +46,4 @@ This will save the data in a json encoded string in the given file. Like so:
 {"something":{"key":"value"},"admin":{"name":"Tommy Vercety","pass":"098f6bcd4621d373cade4e832627b4f6","email":"test@test.com"}}
 ```
 
-__Note__: `set` and `get` only works with the first level of the array/object.  
-If you want to update or remove some inner level stuff, just use `get` and  
-update/delete it as a normal php array. The class uses the `__construct`  
-method to load the data into a php array and the `__destruct` method to  
-save it back to the file. This means that the data is saved on the file when  
-the php script is finished running.
+__Note__: `set` and `get` only works with the first level of the array/object. If you want to update or remove some inner level stuff, just use `get` and update/delete it as a normal php array. The class uses the `__construct` method to load the data into a php array and the `__destruct` method to save it back to the file. This means that the data is saved on the file when the php script is finished running.
