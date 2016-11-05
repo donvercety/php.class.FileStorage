@@ -10,7 +10,7 @@ try {
 }
 
 $db->set(1, [
-	"key" => "value"
+	"foo" => "bar"
 ]);
 
 

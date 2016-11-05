@@ -23,7 +23,7 @@ Afterwards use the 3 simple methods: `set`, `get` and `del`
 <?php
 
 $db->set("something", [
-	"key" => "value"
+	"foo" => "bar"
 ]);
 
 $db->set("admin", [
